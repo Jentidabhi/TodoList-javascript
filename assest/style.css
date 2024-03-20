@@ -1,0 +1,92 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    outline: none;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    display: block;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0 0 20px 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    text-align: center;
+    padding: 15px 20px;
+    color: #fff;
+    cursor: pointer;
+    min-width: 120px;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.p-5 {
+    padding: 5vw 0;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex.center {
+    justify-content: center;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input-control {
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid currentColor;
+    padding: 5px 15px;
+}
